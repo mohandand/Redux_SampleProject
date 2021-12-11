@@ -17,8 +17,18 @@ const increment = () => {
 
   }
 }
+const decrement = () => {
+  return {
+    type: "DECREMENT",
 
+  }
+}
 //REDUCER
+
+const counter = (state=0,action) => {
+  switch(action.type)
+
+}
 
 //DISPATCH
 
