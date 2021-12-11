@@ -11,6 +11,13 @@ let store = createStore(reducer);
 
 //ACTION INCREMENT
 
+const increment = () => {
+  return {
+    type: "INCREMENT",
+
+  }
+}
+
 //REDUCER
 
 //DISPATCH
